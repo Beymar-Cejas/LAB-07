@@ -1,23 +1,13 @@
-import './App.css'
-import { Button } from './components/Button'
-import { WapperList } from './components/WrapperLis'
-import { List } from './components/List'
-import { RandomComponent } from './components/RandomComponent'
+import React from "react";
+import CompWithProps from "./components/CompWithProps";
 
 function App() {
-
-  const buttonText = "Count :"
-
-  return (
-    <>
-      <h1>Hi</h1>
-      <Button text={buttonText}/>
-      <WapperList>
-          <List/>
-      </WapperList>
-      <RandomComponent/>
-    </>
-  )
+    return (
+        <div style={{ padding: "20px" }}>
+            <h1>Componente con Props</h1>
+            <CompWithProps />
+        </div>
+    );
 }
 
-export default App
+export default App;

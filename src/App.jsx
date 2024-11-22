@@ -2,6 +2,7 @@ import './App.css'
 import { Button } from './components/Button'
 import { WapperList } from './components/WrapperLis'
 import { List } from './components/List'
+import { RandomComponent } from './components/RandomComponent'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <WapperList>
           <List/>
       </WapperList>
+      <RandomComponent/>
     </>
   )
 }
